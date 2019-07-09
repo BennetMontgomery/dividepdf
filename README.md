@@ -10,6 +10,6 @@ If on Windows,
 5. `dividepdf.sh` should now be usable in bash subshell for powershell. All Windows files are accessible from /mnt/c.
 
 # usage
-Use the command `./dividepdf.sh source page-range [ subsequent page-ranges ]` where `source` is the pdf file to process and each `page-range` is of the form `startpagenumber-finishpagenumber`. Each output file will be named startpagenumber-finishpagenumber.pdf. If on Windows make sure to run in the bash subshell of powershell in a subdirectory of /mnt for easier file access.
+Use the command `dividepdf.sh source page-range [ subsequent page-ranges ]` where `source` is the pdf file to process and each `page-range` is of the form `startpagenumber-finishpagenumber`. Each output file will be named startpagenumber-finishpagenumber.pdf. If on Windows make sure to run in the bash subshell of powershell in a subdirectory of /mnt for easier file access.
 
 To access outputted files on Windows, navigate to the directory where files were generated in the bash subshell of powershell. If on a subdirectory of /mnt, run `explorer.exe .`.
