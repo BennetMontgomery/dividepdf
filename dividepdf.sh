@@ -25,8 +25,6 @@ then
 	
 	exit
 else
-	shift 1
-
 	sourcefile=$1
 	
 	shift 1
