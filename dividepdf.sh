@@ -2,7 +2,6 @@
 
 if [[ "$1" == "-h" ]] || [[ "$1" == "--help" ]] || [[ -z "$1" ]]
 then
-	#TODO: add useful info here
 	echo "usage: dividepdf.sh [-h | --help]"
 	echo "   or: dividepdf.sh -a <source file> <start page>-<finish page> <output file> ..."
 	echo "   or: dividepdf.sh <source file> <start page>-<finish page> ..."
