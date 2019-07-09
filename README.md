@@ -2,6 +2,10 @@
 A tool that takes a pdf file and a set of page ranges and generates output pdfs consisting of the pages specified.
 
 # installation
+On Linux and Mac,
+1. Clone repository to your machine
+2. Add downloaded folder to your $PATH or place dividepdf.sh in a folder in $PATH
+
 If on Windows,
 1. Enable Linux subsystem for Windows and install preferred distro from Windows appstore
 2. Open installed distribution and setup a user account. Install qpdf and `git clone` this repository
