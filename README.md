@@ -10,7 +10,7 @@ If on Windows,
 5. `dividepdf.sh` should now be usable in bash subshell for powershell. All Windows files are accessible from /mnt/c.
 
 # usage
-  For default behaviour, run `dividepdf.sh sourcefile startpage-finishpage [startpage-finishpage ...]` to output slices of sourcefile with default naming scheme (<page range>.pdf).
+  For default behaviour, run `dividepdf.sh sourcefile startpage-finishpage [startpage-finishpage ...]` to output slices of sourcefile with default naming scheme (page-range.pdf).
   
   To name output files, run `dividepdf.sh -a sourcefile startpage-finishpage outputfile [startpage-finishpage outputfile ...]`
  
