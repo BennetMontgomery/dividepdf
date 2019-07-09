@@ -1,9 +1,15 @@
 #!/bin/bash
 
-if [[ "$1" == "-h" ]] || [[ "$1" == "--help" ]]
+if [[ "$1" == "-h" ]] || [[ "$1" == "--help" ]] || [[ -z "$1" ]]
 then
 	#TODO: add useful info here
-	echo "help page"
+	echo "usage: dividepdf.sh [-h | --help]"
+	echo "   or: dividepdf.sh -a <source file> <start page>-<finish page> <output file> ..."
+	echo "   or: dividepdf.sh <source file> <start page>-<finish page> ..."
+	echo "Arguments:"
+	echo "   -h or --help:	display this help page"
+	echo "   -a:			allow designation of output files"
+	
 elif [[ "$1" == "-a" ]]
 then	
 	shift 1
