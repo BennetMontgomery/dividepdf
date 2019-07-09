@@ -2,6 +2,7 @@
 
 if [[ "$1" == "-h" ]] || [[ "$1" == "--help" ]]
 then
+	#TODO: add useful info here
 	echo "help page"
 elif [[ "$1" == "-a" ]]
 then	
