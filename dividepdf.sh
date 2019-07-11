@@ -2,12 +2,12 @@
 
 if [[ "$1" == "-h" ]] || [[ "$1" == "--help" ]] || [[ -z "$1" ]]
 then
-	echo "usage: dividepdf.sh [-h | --help]"
-	echo "   or: dividepdf.sh -a <source file> <start page>-<finish page> <output file> ..."
-	echo "   or: dividepdf.sh <source file> <start page>-<finish page> ..."
-	echo "Arguments:"
-	echo "   -h or --help:	display this help page"
-	echo "   -a:			allow designation of output files"
+	>&2 echo "usage: dividepdf.sh [-h | --help]"
+	>&2 echo "   or: dividepdf.sh -a <source file> <start page>-<finish page> <output file> ..."
+	>&2 echo "   or: dividepdf.sh <source file> <start page>-<finish page> ..."
+	>&2 echo "Arguments:"
+	>&2 echo "   -h or --help:	display this help page"
+	>&2 echo "   -a:			allow designation of output files"
 	
 elif [[ "$1" == "-a" ]]
 then	
